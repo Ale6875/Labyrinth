@@ -25,6 +25,13 @@ body {
 #title-logo{
     width: 750px;
     margin-bottom: 600px;
+    color: white;
+    font-family: undertaleFont;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 65px;
 }
 
 #maze{
@@ -40,4 +47,9 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+@font-face {
+    font-family: undertaleFont;
+    src: url("../fonts/MonsterFriendFore.otf");
 }
