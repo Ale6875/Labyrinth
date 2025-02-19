@@ -899,7 +899,7 @@ function drawSolution() {
     const ctx = canvas.getContext('2d');
 
     const heartImg = new Image();
-    heartImg.src = '/image/heart.png';
+    heartImg.src = './image/heart.png';
     
     let i = 0;
     let point1 = { ...solution[i] };
